@@ -591,6 +591,5 @@ def inisiasi_objektracker(facebox, img, age, gender):
             )
     # kirimdata()
 
-
 def variance_of_laplacian(image):
     return cv2.Laplacian(image, cv2.CV_64F).var()
